@@ -120,6 +120,7 @@ h3 {
     text-align: center;
     margin-bottom: 49px;
     color: #42446E;
+    line-height: 1.2em;
 }
 
 h4 {
@@ -129,6 +130,7 @@ h4 {
     line-height: 26px;
     text-align: center;
     color: #666666;
+    line-height: 1.2em;
 }
 
 .my-stack-content {
@@ -159,6 +161,8 @@ li {
     padding: 0px 50px 70px;
     box-sizing: border-box;
 }
+
+
 
 .projects-content {
     max-width: 1220px;
@@ -402,5 +406,24 @@ footer {
 @media (max-width: 380px) {
     .footer-logos {
         display: none;
+    }
+
+    #portrait {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card {
+        width: 300px;
+        height: 620px;
+    }
+
+    .project-name, .project-description,
+    .project-stack, .project-links {
+        padding: 0px 10px;
+    }
+
+    .project-links {
+        margin: 0;
     }
 }
